@@ -1,0 +1,90 @@
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    
+}
+body{
+    background-color: #a6baca;
+}
+    
+
+.form-content{
+    background-color: rgba(255, 255, 255, 0.924);
+    width: 55%;
+    margin: 100px auto;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 7px rgb(79, 77, 77);
+}
+.form label, input {
+    display:block;
+}
+
+label {
+    padding-left: 40px;
+    font-size: 18px;
+
+}
+
+
+input[type=text],[type="email"],[type="tel"],[type="password"]{
+   
+    margin: 8px auto;
+    height: 30px;
+    width:80%;
+    padding-left: 10px;
+    border:1;
+    border-radius: 5px;
+}
+input[type=text]:hover{
+    background-color: rgb(241, 240, 240);
+}
+input[type="email"]:hover{
+    background-color: rgb(241, 240, 240);
+}
+input[type="tel"]:hover{
+    background-color: rgb(241, 240, 240);
+}
+input[type="password"]:hover{
+    background-color: rgb(241, 240, 240);
+
+}
+ select {
+
+    width: 30%;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+} 
+.uf{
+    margin-bottom: 30px;
+}
+
+
+.tipoProfissional{
+    margin:100px;
+}
+
+  
+
+input[type=submit] {
+    margin: 30px auto;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(35, 255, 134);
+    height: 40px;
+    width: 100px;
+    color: white;
+    cursor: pointer;
+
+}
+input[type=submit]:hover {
+ background-color: rgb(42, 161, 96);
+}

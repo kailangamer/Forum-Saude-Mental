@@ -1,0 +1,205 @@
+/* INICIO DOBRA CABEÇALHO */
+.main_header {
+    width: 100%;
+    background-color: #222039;
+
+
+}
+.main_header_content img{
+    width: 60%;
+}
+
+.main_header .main_header_content {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main_header .main_header_content .logo {
+    flex-basis: 330px;
+    padding: 20px;
+    width: 290px;
+
+}
+
+.main_header .main_header_content .main_header_content_menu {
+    flex-basis: calc(100% - 330px);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main_header_content_menu ul {
+    display: flex;
+    align-items: stretch;
+}
+
+.main_header_content_menu ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.main_header_content_menu ul li a{
+    padding: 0 26px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color:#fff;
+}
+
+.main_header_content_menu ul li a:hover{
+    color:#fff;
+    background-color: #861ccc;
+}
+
+/* INICIO SESSÃO ARTIGOS */
+.main_blog{
+    max-width: calc(1300px - 40px);
+    padding: 0 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main_blog_header{
+    flex-basis: 100%;
+    margin: 30px 0;
+}
+
+.main_blog_header h1{
+    color:#333;
+    font-size: 2rem;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+
+.main_blog p{
+    margin: 10px 0;
+}
+
+.main_blog article {
+    flex-basis: calc(15% - 10px);
+    margin-bottom: 30px;
+    opacity: 1;
+    border:1px;
+    margin:30px;
+    padding:0px;
+    align-items: center;
+    align-content: center;
+    border: solid rgb(90, 86, 86);
+    border-radius: 10px;
+    opacity: 0.8;
+}
+.main_blog article:hover {
+  opacity: 1;
+  border:2px;
+  /* border:solid #861ccc; */
+  box-shadow: 0 0 6px rgba(191, 24, 206, 0.939);
+  background-image: url('../img/edson.png');
+  width: 10px;
+}
+.main_blog article p{
+    font-size:1.2rem;
+    font-weight: 300;
+    padding-bottom:8px;
+}
+
+.main_blog article img{
+    width: 100%;
+    padding:10px;
+    /* margin-left: 50px;
+    margin-bottom: 20px; */
+    /* margin:auto 30px; */
+}
+
+.main_title h2{
+    font-size: 1.875rem;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 400;
+    
+}
+
+.main_title p{
+    font-size: 1.2rem;
+    line-height:25px;
+    margin: 15px 50px;
+    text-align: justify;
+    font-weight:300;
+    
+    /* margin-bottom: 200px; */
+}
+/* INICIO RODAPÉ */
+.main_optin_footer{
+    width: 100%;
+    background-color: #f7f7f7;
+    margin-top:100px;
+}
+.main_optin_footer_concent{
+    max-width: 1300px;
+    /* padding: 40px 0; */
+    text-align: center;
+    color: #333;
+    margin: 0 auto;
+    margin-top:100px;
+}
+.main_optin_footer_concent h1{
+    font-size: 1.8rem;
+    padding-top:40px;
+    font-weight: 400;
+}
+.main_footer{
+    max-width: 1300px;
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: #333;
+}
+.main_footer header{
+    flex-basis: 100%;
+}
+.main_footer header h1{
+    font-size: 1.4rem;
+    /* margin-bottom: 40px; */
+
+}
+.main_footer article h2{
+    margin-bottom: 20px;
+}
+.main_footer article ul li{
+    list-style: none;
+    margin: 5px 0;
+}
+.main_footer article ul li a{
+    color: #333;
+}
+.main_footer article ul li a:hover{
+    text-decoration: underline;
+}
+.main_footer_our_pager, .mein_footer_limks{
+    flex-basis: 25%;
+    
+}
+.main_footer_about{
+    flex-basis: 50%;
+}
+.main_footer_rights{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f7f7f7;
+    border-top: 1px solid #ebebeb;
+    font-size: 0.9rem;
+    color: #666;
+    font-weight: 300;
+}
+
+/* FIM RODAPÉ */
+
